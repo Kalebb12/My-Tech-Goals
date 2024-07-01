@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HNG Frontend Task</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Tech Goals</h1>
+  </header>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p data-testid="slackDisplayName">My Slack Display Name: <span>Caleb John</span></p>
+      <img data-testid="slackProfilePicture" src="./assets/face.jpg" alt="Slack Profile Picture">
+      <p data-testid="slackEmail">My Slack Email: <span>2021.cee.jay@gmail.com</span></p>
+    </section>
+
+    <section class="goals">
+        <div>Start and finish HNG program.</div>
+        <div>Build more projects to become <br> proficient in Frontend Development.</div>
+        <div>Master backend development  by <br>building  various projects</div>
+        <div>Start up an Open Source Project</div>
+        <div>Launch a Site/Application of my own</div>
+        <div>Volunteer for Tech events and programs</div>
+        <div>improve my problem-solving skills</div>
+        <div>Learn app development</div>
+    </section>
+
+    
+    <section>
+      <h2>Current Time</h2>
+      <p data-testid="currentTimeUTC">Current Time in UTC: <span id="currentTimeUTC"></span></p>
+      <p data-testid="currentDay">Current Day of the week: <span id="currentDay"></span></p>
+    </section>
+    <section>
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a data-testid="hngLink" href="https://hng.tech/learn">hng.tech/learn</a></li>
+        <li><a data-testid="keywordLink" href="https://keyword.dog">keyword.dog</a></li>
+        <li><a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site">scrapeanyweb.site</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 My Tech Goals</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
